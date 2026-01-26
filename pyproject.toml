@@ -1,18 +1,14 @@
-[project]
+[tool.poetry]
 name = "ds-project1"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "ThePsychologist-EV",email = "psychology.data.science@gmail.com"}
-]
+authors = ["ThePsychologist-EV <psychology.data.science@gmail.com>"]
 readme = "README.md"
 package-mode = false
 
-requires-python = ">=3.13"
-dependencies = [
-    "streamlit (>=1.53.1,<2.0.0)"
-]
-
+[tool.poetry.dependencies]
+python = ">=3.13"
+streamlit = ">=1.53.1,<2.0.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
